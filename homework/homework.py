@@ -53,7 +53,7 @@ def clean_campaign_data():
     import zipfile
     import pandas as pd
 
-    carpeta = "files\input"
+    carpeta = "files/input"
     dataframes = []
 
     for archivo in os.listdir(carpeta):
